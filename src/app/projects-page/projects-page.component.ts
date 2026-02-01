@@ -16,7 +16,7 @@ export class ProjectsPageComponent {
       title: 'Spotlight search for linux',
       description: 'I created a version of spotlight search for linux using python and ' +
         'gtk 4. It allows users to quickly search for files and applications on their linux system',
-      image: 'portfolio-website.png',
+      image: 'github.png',
       link: 'https://github.com/dsl3zm/finder-linux/'
     },
     {
@@ -24,6 +24,13 @@ export class ProjectsPageComponent {
       description: 'Created a small portfolio website using angular 21',
       image: 'portfolio-website.png',
       link: 'https://github.com/dsl3zm/daniel-portfolio'
+    },
+    {
+      title: 'Recipe Scraper',
+      description: 'Created a quick python script using both gemini and an off-the-shelf recipe scraper ' +
+      'to scrape recipes in json format and upload them to google drive',
+      image: 'recipe-scraper.png',
+      link: 'https://github.com/dsl3zm/recipe-scraper'
     }
   ];
 }
