@@ -16,7 +16,7 @@ export class ProjectsPageComponent {
       title: 'Spotlight search for linux',
       description: 'I created a version of spotlight search for linux using python and ' +
         'gtk 4. It allows users to quickly search for files and applications on their linux system',
-      image: 'github.png',
+      image: 'spotlight-search.png',
       link: 'https://github.com/dsl3zm/finder-linux/'
     },
     {
