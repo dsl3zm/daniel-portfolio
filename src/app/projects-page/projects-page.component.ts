@@ -1,17 +1,16 @@
-import { Component } from '@angular/core';
+import { Component, signal } from '@angular/core';
 import { MatCardModule } from '@angular/material/card';
 import { MatButtonModule } from '@angular/material/button';
-import { CommonModule } from '@angular/common';
 
 @Component({
   selector: 'app-projects-page',
   standalone: true,
-  imports: [MatCardModule, MatButtonModule, CommonModule],
+  imports: [MatCardModule, MatButtonModule],
   templateUrl: './projects-page.component.html',
   styleUrl: './projects-page.component.scss'
 })
 export class ProjectsPageComponent {
-  projects = [
+  projects = signal([
     {
       title: 'Spotlight search for linux',
       description: 'I created a version of spotlight search for linux using python and ' +
@@ -32,5 +31,5 @@ export class ProjectsPageComponent {
       image: 'recipe-scraper.png',
       link: 'https://github.com/dsl3zm/recipe-scraper'
     }
-  ];
+  ]);
 }
