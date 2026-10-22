@@ -1,43 +1,69 @@
 <!-- about me -->
-<mat-card>
-    <mat-card-header>
+<section class="home-container">
+  <mat-card class="profile-card">
+    <div class="hero-header">
+      <div class="avatar-wrapper">
         <img src="daniel.jpg" alt="Daniel Lysinger" class="profile-photo" />
-    </mat-card-header>
-    <mat-card-content>
-        <p>I am a self-motivated software engineer with four years of development experience
+      </div>
+      <h1 class="hero-name">Daniel Lysinger</h1>
+      <p class="hero-subtitle">Software Engineer &bull; Richmond, VA</p>
+    </div>
+
+    <mat-card-content class="bio-content">
+      <p>
+        I am a self-motivated software engineer with four years of development experience.
         Some of my projects include a mobile meditation app, a portfolio website (this one),
-        and some python flask applications
-        </p>
-        
-        <p>Currently I work at Kinsale Insurance as a Software Engineer.</p>
+        and some Python Flask applications.
+      </p>
 
-        <p>I grew up in Amelia Virginia, and in my free time I play video games,
-            spend time with family, and play soccer with friends. I also enjoy 
-            a pint and a good game of chess, two things that you can find easily in Richmond, Virginia
-        </p>
+      <p>Currently I work at <strong>Kinsale Insurance</strong> as a Software Engineer.</p>
 
-        <p>Below is my contact information and some relevant places</p>
+      <p>
+        I grew up in Amelia, Virginia, and in my free time I play video games,
+        spend time with family, and play soccer with friends. I also enjoy
+        a pint and a good game of chess, two things that you can find easily in Richmond, Virginia.
+      </p>
 
-        <mat-divider></mat-divider>
+      <mat-divider class="section-divider"></mat-divider>
 
+      <div class="contact-section">
+        <span class="contact-label">Connect with me</span>
         <div class="contact-info">
-            <span>
-                <img src="linkedin.webp" alt="LinkedIn" class="contact-icon" />
-                <a href="https://www.linkedin.com/in/daniel-lysinger-172298108/" target="_blank">LinkedIn</a>
-            </span>
-            <span>
-                <img src="github.png" alt="GitHub" class="contact-icon" />
-                <a href="https://github.com/dsl3zm" target="_blank">GitHub</a>
-            </span>
-            <span>
-                <img src="gmail.png" alt="Gmail" class="contact-icon" />
-                <a href="mailto:danielslysinger@gmail.com">Gmail</a>
-            </span>
-            <span>
-                <img src="xlogo.webp" alt="X (Twitter)" class="contact-icon" />
-                <a href="https://x.com/DanielLysinger" target="_blank">X (Twitter)</a>
-            </span>
+          <a
+            href="https://www.linkedin.com/in/daniel-lysinger-172298108/"
+            target="_blank"
+            rel="noopener noreferrer"
+            class="social-pill"
+          >
+            <img src="linkedin.webp" alt="LinkedIn" class="contact-icon" />
+            <span>LinkedIn</span>
+          </a>
+          <a
+            href="https://github.com/dsl3zm"
+            target="_blank"
+            rel="noopener noreferrer"
+            class="social-pill"
+          >
+            <img src="github.png" alt="GitHub" class="contact-icon" />
+            <span>GitHub</span>
+          </a>
+          <a href="mailto:danielslysinger@gmail.com" class="social-pill">
+            <img src="gmail.svg" alt="Gmail" class="contact-icon" />
+            <span>Gmail</span>
+          </a>
+          <a
+            href="https://x.com/DanielLysinger"
+            target="_blank"
+            rel="noopener noreferrer"
+            class="social-pill"
+          >
+            <img src="xlogo.webp" alt="X (Twitter)" class="contact-icon" />
+            <span>X (Twitter)</span>
+          </a>
         </div>
+      </div>
     </mat-card-content>
-</mat-card>
+  </mat-card>
+</section>
+
 
