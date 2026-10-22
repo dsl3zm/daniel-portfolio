@@ -1,4 +1,10 @@
 main {
-  padding: 20px;
-  min-height: calc(100vh - 64px); // Adjust based on toolbar height
+  padding: 48px 24px 64px;
+  min-height: calc(100vh - 68px);
+}
+
+@media (max-width: 600px) {
+  main {
+    padding: 28px 16px 48px;
+  }
 }
